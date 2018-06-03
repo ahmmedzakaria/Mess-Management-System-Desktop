@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import java.net.URL?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: ;" styleClass="container" stylesheets="@../css/messmanagement.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="members.FXMLMembersController">
+   <children>
+      <JFXTreeTableView fx:id="tblMembers" layoutX="14.0" layoutY="10.0" prefHeight="580.0" prefWidth="582.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="10.0">
+         <stylesheets>
+            <URL value="@../css/messmanagement.css" />
+            <URL value="@../css/table.css" />
+         </stylesheets></JFXTreeTableView>
+      <JFXButton fx:id="btnAddMember" buttonType="RAISED" layoutX="424.0" layoutY="63.0" onAction="#addMember" prefHeight="48.0" prefWidth="157.0" styleClass="com_button" stylesheets="@../css/messmanagement.css" text="Add Member" AnchorPane.rightAnchor="15.0" />
+      <JFXButton fx:id="btnEditmember" buttonType="RAISED" layoutX="429.0" layoutY="246.0" onAction="#editMember" prefHeight="48.0" prefWidth="157.0" styleClass="com_button" stylesheets="@../css/messmanagement.css" text="Edit Member" AnchorPane.rightAnchor="15.0" />
+   </children>
+</AnchorPane>

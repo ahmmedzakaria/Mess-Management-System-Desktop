@@ -1,0 +1,36 @@
+.tex_fild{
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-prompt-text-fill: #000000;  
+    -fx-pref-width: 250;
+    -fx-pref-height: 40;
+    -fx-font-size: 16;
+    -fx-padding:5;
+}
+
+    .lable.tex_fild{
+    -fx-text-fill: rgb(49, 89, 23); 
+    -fx-pref-width: 150;
+    -fx-pref-height: 40;
+    -fx-font-size: 16;
+    -fx-padding:5;
+}
+
+.button{
+    -fx-background-color: #1236F9;
+    -fx-text-fill: #ffffff;
+    -fx-text-alignment: center;  
+     -fx-background-radius: 35;
+     -fx-font-size: 18;
+}
+
+.top{
+    -fx-background-color: #00ff00;
+}
+.center{
+    
+}
+.bottom{
+    -fx-background-color: #56ff56;
+    
+}

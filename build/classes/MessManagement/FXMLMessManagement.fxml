@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="body" stylesheets="@../css/messmanagement.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MessManagement.FXMLMessManagementController">
+    <children>
+      <AnchorPane fx:id="ancTop" prefHeight="54.0" prefWidth="700.0" style="-fx-background-color: #00ff00;" stylesheets="@../css/messmanagement.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <JFXHamburger fx:id="fxHamburger" layoutX="14.0" layoutY="17.0" />
+            <Label layoutX="89.0" layoutY="12.0" prefHeight="38.0" prefWidth="228.0" text="Account name" />
+            <Label layoutX="445.0" layoutY="12.0" prefHeight="38.0" prefWidth="228.0" text="Accountant Name" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="ancBottom" layoutX="6.0" layoutY="56.0" prefHeight="544.0" prefWidth="700.0" stylesheets="@../css/messmanagement.css" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="56.0">
+         <children>
+            <HBox fx:id="hBoxContainer" layoutX="28.0" prefHeight="344.0" prefWidth="572.0" styleClass="container" stylesheets="@../css/messmanagement.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

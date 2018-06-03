@@ -1,0 +1,59 @@
+
+.login_body{
+    -fx-background-color: #00e640;
+    -fx-pref-width: 500;
+    -fx-pref-height: 500;   
+}
+
+
+
+.login_button{
+    -fx-background-color: #1236F9;
+    -fx-text-fill: #ffffff;
+    -fx-text-alignment: center;  
+     -fx-background-radius: 40;
+     -fx-font-size: 18;
+}
+
+.login_button:hover{
+    -fx-background-color: #006853;
+}
+
+.login_tex_fild{
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-prompt-text-fill: #000000;  
+    -fx-pref-width: 350;
+    -fx-pref-height: 60;
+    -fx-font-size: 18;
+    -fx-padding:5;
+}
+
+.login_check_box{
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 18;
+    -fx-pref-width: 200;
+    -fx-pref-height: 30;
+}
+
+.jfx-tab-pane {
+-fx-background-color: #00e640;
+
+}
+
+
+.jfx-tab-pane .headers-region {
+    -fx-background-color: #00e640;
+}
+
+
+.jfx-tab-pane .tab-header-area .tab-selected-line {
+    -fx-background-color: #ffffff;
+}
+
+.jfx-tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #00e640;
+}
+
+
+

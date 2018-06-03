@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="502.0" prefWidth="207.0" styleClass="drawer_body" stylesheets="@../css/messmanagement.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MessManagement.FXMLDrowerAccContentController">
+   <children>
+      <VBox>
+         <children>
+            <ImageView accessibleText="btn1" fitHeight="142.0" fitWidth="137.0" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <image>
+                  <Image url="@../images/food_spoon_logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <JFXButton accessibleText="daily_update" buttonType="RAISED" prefHeight="40.0" prefWidth="211.0" styleClass="nav_button" stylesheets="@../css/messmanagement.css" text="Add Daily Update">
+         <VBox.margin>
+            <Insets bottom="2.0" />
+         </VBox.margin></JFXButton>
+      <JFXButton fx:id="btnAccount" accessibleText="account" buttonType="RAISED" ellipsisString="" onAction="#showAccount" prefHeight="40.0" prefWidth="211.0" styleClass="nav_button" stylesheets="@../css/messmanagement.css" text="Accounts">
+         <VBox.margin>
+            <Insets bottom="2.0" />
+         </VBox.margin></JFXButton>
+      <JFXButton accessibleText="deposit" buttonType="RAISED" prefHeight="40.0" prefWidth="211.0" styleClass="nav_button" stylesheets="@../css/messmanagement.css" text="Deposit">
+         <VBox.margin>
+            <Insets bottom="2.0" />
+         </VBox.margin>
+      </JFXButton>
+      <JFXButton accessibleText="bazar" buttonType="RAISED" prefHeight="40.0" prefWidth="211.0" styleClass="nav_button" stylesheets="@../css/messmanagement.css" text="Bazar">
+         <VBox.margin>
+            <Insets bottom="2.0" />
+         </VBox.margin></JFXButton>
+      <JFXButton accessibleText="meal" buttonType="RAISED" layoutX="10.0" layoutY="342.0" prefHeight="40.0" prefWidth="211.0" styleClass="nav_button" stylesheets="@../css/messmanagement.css" text="Meal">
+         <VBox.margin>
+            <Insets bottom="2.0" />
+         </VBox.margin>
+      </JFXButton>
+      <JFXButton accessibleText="extra" buttonType="RAISED" prefHeight="40.0" prefWidth="211.0" styleClass="nav_button" stylesheets="@../css/messmanagement.css" text="Extras">
+         <VBox.margin>
+            <Insets bottom="2.0" />
+         </VBox.margin>
+      </JFXButton>
+      <JFXButton accessibleText="report" buttonType="RAISED" prefHeight="40.0" prefWidth="211.0" styleClass="nav_button" stylesheets="@../css/messmanagement.css" text="Report">
+         <VBox.margin>
+            <Insets bottom="2.0" />
+         </VBox.margin>
+      </JFXButton>
+      <JFXButton accessibleText="logout" buttonType="RAISED" layoutX="10.0" layoutY="384.0" prefHeight="40.0" prefWidth="211.0" styleClass="nav_button" stylesheets="@../css/messmanagement.css" text="Logout" />
+   </children>
+</VBox>

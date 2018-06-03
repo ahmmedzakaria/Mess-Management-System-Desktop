@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="login_body" stylesheets="@login_style.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.FXMLCreateAccountController">
+   <children>
+      <JFXTextField fx:id="tfName" labelFloat="true" layoutX="67.0" layoutY="65.0" prefHeight="48.0" prefWidth="292.0" promptText="Name" styleClass="login_tex_fild" stylesheets="@login_style.css" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="75.0" AnchorPane.topAnchor="50.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="tfUserName" labelFloat="true" layoutX="58.0" layoutY="175.0" prefHeight="48.0" prefWidth="292.0" promptText="User Name" styleClass="login_tex_fild" stylesheets="@login_style.css" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="75.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="btnCreate" layoutX="312.0" layoutY="398.0" onAction="#createAccount" prefHeight="60.0" prefWidth="113.0" styleClass="login_button" stylesheets="@login_style.css" text="Create" AnchorPane.leftAnchor="312.0" AnchorPane.rightAnchor="75.0" />
+      <JFXPasswordField fx:id="psPassword" labelFloat="true" layoutX="75.0" layoutY="304.0" promptText="Password" styleClass="login_tex_fild" stylesheets="@login_style.css" />
+      <JFXButton fx:id="btnBack" layoutX="75.0" layoutY="398.0" onAction="#back" prefHeight="60.0" prefWidth="113.0" styleClass="login_button" stylesheets="@login_style.css" text="Back" />
+   </children>
+   <effect>
+      <InnerShadow />
+   </effect>
+</AnchorPane>

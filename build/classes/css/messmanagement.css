@@ -1,0 +1,67 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+.body{
+    -fx-background-color: #00e640;
+    -fx-pref-width: 800;
+    -fx-pref-height: 600;   
+}
+
+.container{
+    -fx-background-color: #00e640;   
+}
+
+.sub_window_body{
+    -fx-background-color: #00e640;
+  -fx-pref-width: 600;
+    -fx-pref-height: 400;
+}
+.nav_button:hover{
+    -fx-background-color: #006853;
+    -fx-text-fill: #ffffff;
+    -fx-text-alignment: center;
+    -fx-border-radius: 20;
+}
+.drawer_body{
+    -fx-background-color: #00e640;
+}
+
+.nav_button{
+    -fx-background-color: #00ff33;
+    -fx-background-radius: 0;
+}
+
+.com_button{
+    -fx-background-color: #00ff55;
+    -fx-text-fill: #164fe5;
+}
+
+
+
+.clm_txt_fild{
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #000000;
+    -fx-prompt-text-fill: #000000;  
+    -fx-font-size: 16;
+    -fx-text-padding:5;
+}
+
+.clm_lanbel{
+    -fx-background-color: #00ff55;
+    -fx-text-fill: #1236F9;  
+    -fx-font-size: 16;
+    -fx-text-padding:5;
+}
+
+.tbl_body{
+    -fx-background-color: #33dd15;
+}
+
+
+
+

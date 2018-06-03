@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="548.0" styleClass="sub_window_body" stylesheets="@../css/messmanagement.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="members.FXMLAddMemberController">
+   <children>
+      <JFXTextField fx:id="tfFirstName" layoutX="43.0" layoutY="122.0" prefHeight="46.0" prefWidth="205.0" promptText="First Name" styleClass="clm_txt_fild" stylesheets="@../css/messmanagement.css">
+         <padding>
+            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+         </padding>
+      </JFXTextField>
+      <AnchorPane prefHeight="75.0" prefWidth="600.0" style="-fx-background-color: #00ff00;">
+         <children>
+            <Label fx:id="lblCaption" layoutX="191.0" layoutY="18.0" prefHeight="46.0" prefWidth="251.0" text="Add Member" textFill="#1c6cdd">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <JFXTextField fx:id="tfLastName" layoutX="43.0" layoutY="261.0" prefHeight="46.0" prefWidth="205.0" promptText="Last Name" styleClass="clm_txt_fild" stylesheets="@../css/messmanagement.css">
+         <padding>
+            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+         </padding>
+      </JFXTextField>
+      <ImageView fx:id="imgView" fitHeight="184.0" fitWidth="172.0" layoutX="325.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true" style="-fx-blend-mode: #0000ff;">
+         <image>
+            <Image url="@../images/person.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btnChoose" layoutX="514.0" layoutY="208.0" onAction="#chooseImage" styleClass="com_button" stylesheets="@../css/messmanagement.css" text="Choose" />
+      <FlowPane fx:id="flowPane" alignment="CENTER" layoutY="432.0" prefHeight="75.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <JFXButton fx:id="btnSave" alignment="CENTER" buttonType="RAISED" onAction="#saveMember" prefHeight="63.0" prefWidth="238.0" styleClass="com_button" stylesheets="@../css/messmanagement.css" text="Save" textFill="#164fe5">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </FlowPane>
+   </children>
+</AnchorPane>
